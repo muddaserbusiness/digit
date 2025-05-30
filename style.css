@@ -1,0 +1,82 @@
+
+/* Base Styles for Digital Driven - Modern/Minimal Design */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #004AAD;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f4f8;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.services {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.service-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.service-box a {
+    width: 200px;
+    text-decoration: none;
+    color: #333;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.blog-preview {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+}
